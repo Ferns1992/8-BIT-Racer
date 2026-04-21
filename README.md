@@ -2,7 +2,18 @@
 
 **A blazingly fast, standalone 8-bit racing game fully optimized for Docker and Portainer.**
 
-![Retro Racing Concept](https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=2000&auto=format&fit=crop)
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop" alt="8-Bit Arcade Aesthetic" style="border-radius: 12px; border: 4px solid #fff; box-shadow: 8px 8px 0px #E40058; margin-bottom: 24px;" />
+  <pre style="background: #000; color: #00FF00; padding: 16px; border-radius: 8px; border: 4px solid #333; display: inline-block;">
+      __    __      _         _    __              
+    /   \  /  \    (_)       / \   \ \    ___      
+   |     ||    |   | |      / _ \   \ \  /___\     
+   |  _  ||  _  |  | |     / ___ \   \ \//   \\    
+    \_/ \/ \_/ \/  |_|    /_/   \_\   \//     \\   
+                                _                  
+  8-BIT RETRO RACER       -=[ 🏎️ ]=-               
+  </pre>
+</div>
 
 Yes, this app is **100% Docker and Portainer ready**! We configured it to operate flawlessly in any containerized environment. To keep things absolutely lightweight, we swapped out heavy database engines for a fast, file-based `JSON_FS` (JSON File System) storage that persists automatically using Docker Volumes.
 
