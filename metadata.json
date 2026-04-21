@@ -1,0 +1,6 @@
+{
+  "name": "8-Bit Retro Racer",
+  "description": "A top-down NES-style racing game with 8-bit sound effects and a high-score leaderboard using SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

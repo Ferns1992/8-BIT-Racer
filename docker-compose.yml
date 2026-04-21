@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "4050:3000"
+    volumes:
+      - ./scores.json:/app/scores.json
+    environment:
+      - NODE_ENV=production
+    restart: always
