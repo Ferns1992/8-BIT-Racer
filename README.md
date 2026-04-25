@@ -2,7 +2,19 @@
 
 <div align="center">
 
-![Gameplay Screenshot](./screenshot.svg)
+<img src="./assets/logo.svg" alt="8-Bit Racer Logo" width="260" />
+
+<p style="margin-top:12px">
+  <img src="./assets/icon-coin.svg" alt="Coin" width="56" style="margin-right:8px" />
+  <img src="./assets/icon-shell.svg" alt="Shell" width="56" style="margin-right:8px" />
+  <img src="./assets/icon-oil.svg" alt="Oil" width="56" style="margin-right:8px" />
+  <img src="./assets/icon-car.svg" alt="Car" width="56" style="margin-right:8px" />
+</p>
+
+<p style="margin-top:12px">
+  <img src="./screenshot.svg" alt="Gameplay Screenshot" width="420" style="border-radius:12px; border:4px solid #fff; box-shadow:8px 8px 0px #E40058; margin-right:12px" />
+  <img src="./screenshot2.svg" alt="Gameplay Shot 2" width="420" style="border-radius:12px; border:4px solid #fff; box-shadow:8px 8px 0px #00A800" />
+</p>
 
 </div>
 

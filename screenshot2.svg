@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#7fb0ff"/><stop offset="100%" stop-color="#5C94FC"/></linearGradient>
+    <linearGradient id="carG" x1="0" x2="1"><stop offset="0%" stop-color="#b3003a"/><stop offset="100%" stop-color="#ff6a8a"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <rect x="120" y="0" width="720" height="640" fill="#505050"/>
+  <!-- car closeup -->
+  <g transform="translate(480,420)">
+    <ellipse cx="0" cy="40" rx="66" ry="16" fill="rgba(0,0,0,0.45)"/>
+    <rect x="-90" y="-40" width="180" height="72" rx="16" fill="url(#carG)" stroke="#9b0d3a" stroke-width="3"/>
+    <rect x="-36" y="-24" width="72" height="28" rx="8" fill="rgba(20,30,40,0.6)"/>
+    <rect x="54" y="-34" width="22" height="8" rx="3" fill="#a10033"/>
+    <g fill="#000"><ellipse cx="-34" cy="40" rx="12" ry="9"/><ellipse cx="34" cy="40" rx="12" ry="9"/></g>
+  </g>
+  <!-- HUD -->
+  <rect x="28" y="20" width="320" height="92" rx="8" fill="rgba(0,0,0,0.5)"/>
+  <text x="44" y="54" fill="#F8B800" font-family="'Press Start 2P', monospace" font-size="16">SCORE</text>
+  <text x="44" y="84" fill="#fff" font-family="'Press Start 2P', monospace" font-size="18">001200</text>
+</svg>
