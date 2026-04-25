@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="20" fill="#F8B800" stroke="#c08500" stroke-width="2" />
+  <circle cx="26" cy="26" r="3" fill="#fff" opacity="0.6" />
+  <text x="32" y="38" font-family="'Press Start 2P', monospace" font-size="14" text-anchor="middle" fill="#000">$</text>
+</svg>

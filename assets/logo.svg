@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="100" viewBox="0 0 360 100">
+  <rect width="100%" height="100%" rx="12" fill="#111"/>
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#c91448"/>
+      <stop offset="50%" stop-color="#E40058"/>
+      <stop offset="100%" stop-color="#ff6a8a"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(18,12)">
+    <rect width="84" height="76" rx="12" fill="url(#lg)" />
+    <text x="48" y="46" font-family="'Press Start 2P', monospace" font-size="22" fill="#fff" text-anchor="middle">8-BIT</text>
+  </g>
+  <text x="130" y="60" font-family="Montserrat, sans-serif" font-size="28" fill="#fff" font-weight="700">Racer</text>
+</svg>
