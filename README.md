@@ -1,19 +1,67 @@
-# 🏎️💨 Ultra-Light 8-Bit Retro Racer
-
-**A blazingly fast, standalone 8-bit racing game fully optimized for Docker and Portainer.**
+# 🏎️💨 8-Bit Racer
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop" alt="8-Bit Arcade Aesthetic" style="border-radius: 12px; border: 4px solid #fff; box-shadow: 8px 8px 0px #E40058; margin-bottom: 24px;" />
-  <pre style="background: #000; color: #00FF00; padding: 16px; border-radius: 8px; border: 4px solid #333; display: inline-block;">
-      __    __      _         _    __              
-    /   \  /  \    (_)       / \   \ \    ___      
-   |     ||    |   | |      / _ \   \ \  /___\     
-   |  _  ||  _  |  | |     / ___ \   \ \//   \\    
-    \_/ \/ \_/ \/  |_|    /_/   \_\   \//     \\   
-                                _                  
-  8-BIT RETRO RACER       -=[ 🏎️ ]=-               
-  </pre>
+
+![Gameplay Screenshot](./screenshot.svg)
+
 </div>
+
+**A fast, polished retro racer with modern polish — now with improved visuals, smooth controls, and responsive gameplay.**
+
+---
+
+## ✨ What's new (Recent improvements)
+
+- ✅ Modern-retro car sprite with metallic shading, highlights, and animated wheels
+- ✅ Updated obstacle art: detailed coins, shells and glossy oil slicks with soft shadows
+- ✅ Camera shake, particles and speed-lines to add impact and feel
+- ✅ Improved lighting, vignette and HUD polish for a more arcade feel
+- ✅ Touch controls for mobile and smoother steering with momentum
+
+---
+
+## 🎮 Quick Start
+
+- Install deps: `npm install`
+- Dev: `npm run dev` (open http://localhost:3000)
+- Docker: `docker-compose up -d --build`
+
+---
+
+## 🧭 How to play
+
+- Move: ← → (Arrow keys) or A / D
+- Boost: Space
+- Pause: Esc
+- Collect coins to increase score, avoid shells and oil slicks.
+
+---
+
+## 🗂️ Changelog (high level)
+
+- Visual overhaul of main canvas drawing (car, obstacles, lighting)
+- Added particle system and camera effects
+- Audio improvements retained (coin/crash/start cues)
+- Leaderboard stored in `scores.json` and served by the Express backend
+
+---
+
+## 📷 Screenshot
+
+Above is an in-repo SVG mock screenshot showing the new look. Replace `screenshot.svg` with a real capture if you have one for higher fidelity.
+
+---
+
+## ❤️ Contribute
+
+PRs welcome. If you want a specific feature (drifting, traffic AI, new tracks), open an issue or a PR with the idea.
+
+---
+
+## 🎉 Enjoy the race!
+
+> Watch out for the green shells 🐢 and oil spills 🛢️ — good luck!
+
 
 Yes, this app is **100% Docker and Portainer ready**! We configured it to operate flawlessly in any containerized environment. To keep things absolutely lightweight, we swapped out heavy database engines for a fast, file-based `JSON_FS` (JSON File System) storage that persists automatically using Docker Volumes.
 
